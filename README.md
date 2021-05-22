@@ -10,5 +10,5 @@ to start this project you need to run it on a live-server . for this you can :
 <img src="snapshot.png" alt="Desktop Version"/>
 #### Mobile
 <img src="snapshot2.png" alt="Mobile Version"/>
-##Note
+## Note
 For optimal implementation you can use components in vue3 .
