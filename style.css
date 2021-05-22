@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.hovia.com/app/uploads/blue-abstract-vector-world-map-wallpaper-mural-Plain.jpg);
+    background-repeat: no-repeat;
+    
+}
+#start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgba(52, 135, 243, 0.836);
+    font-size: 20px;
+    font-family: cursive;
+}
+#topbar{
+    display: none;
+    margin-top: 7vh;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 40vw;
+    min-width: 250px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+.page img{
+    display: none;
+    padding-bottom: 60px;
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: 4vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+.option{
+    border-radius: 10px;
+    display: none;
+    margin-top: 50vh;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 40vw;
+    min-width: 240px;
+    height: auto;
+    background-color: rgba(27, 118, 236, 0.959);
+
+}
+.option p{
+    cursor: pointer;
+    padding: 19px 0px;
+    margin-left: 20px;
+    font-size: 21px;
+    color: white;
+
+}
+.option:hover{
+    box-shadow: 0px 6px 8px 2px #0000008e;
+}
+.option1{
+    margin-top: 9vh;
+}
+.option2 ,.option3 ,.option4{
+    margin-top: 2vh;
+}
+.lives{
+    display: none;
+    border-style: none none none solid;
+    margin: 5px 11px;
+    position: absolute;
+    width: 10px;
+    height: auto;
+    padding: 5px;
+}
+
+.lives i{
+    color: rgb(194, 0, 0);
+    font-size: 20px;
+    padding:2px;
+
+
+}
+.lives i:hover{
+    animation: lost 400ms 1 ease-in-out;
+
+}
+@keyframes lost {
+    0%    {transform: rotateZ(0deg);}
+    25%   {transform: rotateZ(10deg); }
+    50%   {transform: rotateZ(0deg); }
+    75%   {transform: rotateZ(-10deg);}
+    100%  {transform: rotateZ(0deg);}
+
+}
+
+#next{
+    display:  none;
+    margin-top: 30px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgba(52, 135, 243, 0.836);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+#next i{
+    font-size: 17px;
+}
+#next:hover{
+    box-shadow: 0px 3px 4px 1px #0000005d;
+}
+
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="page">
+        <div class="lives" :style="{display:displayoptions}">
+            <i class="fa fa-heart" :style="{color:livesstyle[0] , animation:livesanimate[0]}"></i>
+            <i class="fa fa-heart" :style="{color:livesstyle[1] , animation:livesanimate[1]}"></i>
+            <i class="fa fa-heart" :style="{color:livesstyle[2] , animation:livesanimate[2]}"></i>
+        </div>
+        <button id="start" v-on:click="startgame()" :style="{display:displaybtn}">start</button>
+        <div id="topbar" :style="{display:displayoptions}">
+            <img :src="image" alt="" class="options" :style="{display:displayoptions}">
+        </div>
+        <div class="option1 option" :style="{display:displayoptions , backgroundColor:opt1resultstyle}" ref="opt1" v-on:click="opt1clicked()"><p id="opt1txt">{{opt1}}</p></div>
+        <div class="option2 option" :style="{display:displayoptions , backgroundColor:opt2resultstyle}" ref="opt2" v-on:click="opt2clicked()"><p id="opt2txt">{{opt2}}</p></div>
+        <div class="option3 option" :style="{display:displayoptions , backgroundColor:opt3resultstyle}" ref="opt3" v-on:click="opt3clicked()"><p id="opt3txt">{{opt3}}</p></div>
+        <div class="option4 option" :style="{display:displayoptions , backgroundColor:opt4resultstyle}" ref="opt4" v-on:click="opt4clicked()"><p id="opt4txt">{{opt4}}</p></div>
+        <button id="next" v-on:click="startgame()" :style="{display:nextbtn}">Next <i class="fa fa-arrow-right"></i></button>
+
+    </div>
+<script src="https://unpkg.com/vue@3.0.5"></script>
+<script type="text/javascript" src="data.json"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
