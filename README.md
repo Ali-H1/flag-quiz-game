@@ -7,4 +7,4 @@ to start this project you need to run it on a live-server . for this you can :
 
 ## snapshot 
 #### Desktop
-<img src="snapshot.png" alt="Desktop version"/>
+[Desktop version](snapshot.png)
