@@ -20,10 +20,10 @@
         <div id="topbar" :style="{display:displayoptions}">
             <img :src="image" alt="" class="options" :style="{display:displayoptions}">
         </div>
-        <div class="option1 option" :style="{display:displayoptions , backgroundColor:opt1resultstyle}" ref="opt1" v-on:click="opt1clicked()"><p id="opt1txt">{{opt1}}</p></div>
-        <div class="option2 option" :style="{display:displayoptions , backgroundColor:opt2resultstyle}" ref="opt2" v-on:click="opt2clicked()"><p id="opt2txt">{{opt2}}</p></div>
-        <div class="option3 option" :style="{display:displayoptions , backgroundColor:opt3resultstyle}" ref="opt3" v-on:click="opt3clicked()"><p id="opt3txt">{{opt3}}</p></div>
-        <div class="option4 option" :style="{display:displayoptions , backgroundColor:opt4resultstyle}" ref="opt4" v-on:click="opt4clicked()"><p id="opt4txt">{{opt4}}</p></div>
+        <div class="option1 option" :style="{display:displayoptions , backgroundColor:resultstyle[0]}" ref="opt1" v-on:click="opt1clicked()"><p id="opt1txt">{{opt1}}</p></div>
+        <div class="option2 option" :style="{display:displayoptions , backgroundColor:resultstyle[1]}" ref="opt2" v-on:click="opt2clicked()"><p id="opt2txt">{{opt2}}</p></div>
+        <div class="option3 option" :style="{display:displayoptions , backgroundColor:resultstyle[2]}" ref="opt3" v-on:click="opt3clicked()"><p id="opt3txt">{{opt3}}</p></div>
+        <div class="option4 option" :style="{display:displayoptions , backgroundColor:resultstyle[3]}" ref="opt4" v-on:click="opt4clicked()"><p id="opt4txt">{{opt4}}</p></div>
         <button id="next" v-on:click="startgame()" :style="{display:nextbtn}">Next <i class="fa fa-arrow-right"></i></button>
 
     </div>
