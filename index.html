@@ -15,6 +15,7 @@
             <i class="fa fa-heart" :style="{color:livesstyle[1] , animation:livesanimate[1]}"></i>
             <i class="fa fa-heart" :style="{color:livesstyle[2] , animation:livesanimate[2]}"></i>
         </div>
+        <span id="score" :style="{display:displayoptions}">Score:{{score}}</span>
         <button id="start" v-on:click="startgame()" :style="{display:displaybtn}">start</button>
         <div id="topbar" :style="{display:displayoptions}">
             <img :src="image" alt="" class="options" :style="{display:displayoptions}">
