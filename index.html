@@ -19,6 +19,9 @@
         <button id="start" v-on:click="startgame()" :style="{display:displaybtn}">start</button>
         <div id="topbar" :style="{display:displayoptions}">
             <img :src="image" alt="" class="options" :style="{display:displayoptions}">
+            <div id="myProgress" ref="time">
+                <div id="myBar"></div>
+              </div>
         </div>
         <div class="option1 option" :style="{display:displayoptions , backgroundColor:resultstyle[0]}" ref="opt1" v-on:click="opt1clicked()"><p id="opt1txt">{{opt1}}</p></div>
         <div class="option2 option" :style="{display:displayoptions , backgroundColor:resultstyle[1]}" ref="opt2" v-on:click="opt2clicked()"><p id="opt2txt">{{opt2}}</p></div>
