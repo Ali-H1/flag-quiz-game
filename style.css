@@ -8,9 +8,9 @@ body{
     
 }
 #start{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 120px;
@@ -20,6 +20,45 @@ body{
     background-color: rgba(52, 135, 243, 0.836);
     font-size: 20px;
     font-family: cursive;
+}
+.continents {
+    position: relative;
+    margin-top: 30vh;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-60%);
+    float: right;
+    margin-right: 20px;
+}
+
+.continents div{
+    margin: 9px;
+    display: inline-block;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  6px 6px 10px #797979,
+                 -6px -6px 10px #ffffff;
+    width: 7vw;  
+    min-width: 70px;
+    height: 100px;
+}
+.continents div p{
+    text-align: center;
+
+
+}
+.continents img{
+    width: 30px;
+    height: auto;
+}
+.continents  div:hover{
+    color: #868686e0;
+}
+
+.top{
+    height: 100vh;
+    width: 100%;
+    background: transparent;
 }
 #topbar{
     display: none;
@@ -45,7 +84,6 @@ body{
 
 }
 .option{
-    border-radius: 10px;
     display: none;
     margin-top: 50vh;
     margin-left: 50%;
@@ -54,7 +92,9 @@ body{
     width: 40vw;
     min-width: 240px;
     height: auto;
-    background-color: rgba(27, 118, 236, 0.959);
+    border-radius: 73px;
+    background: #568bfd;
+    box-shadow:  14px 14px 20px #bababa,-14px -14px 20px #ffffff;
 
 }
 .option p{

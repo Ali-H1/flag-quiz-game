@@ -16,6 +16,25 @@
             <i class="fa fa-heart" :style="{color:livesstyle[2] , animation:livesanimate[2]}"></i>
         </div>
         <span id="score" :style="{display:displayoptions}">Score:{{score}}</span>
+        <div class="continents">
+            <div>
+                <img src="continents_svg/BlankMap-Africa.svg" alt="">
+                <p>Asia</p>
+            </div>
+            <div>
+                <img src="continents_svg/as-c-03.svg" alt="">
+                <p>Africa</p>
+            </div>
+            <div>
+                <p>Europe</p>
+            </div>
+            <div>
+                <p>America</p>
+            </div>
+            <div>
+                <p>Ocenia</p>
+            </div>
+        </div>
         <button id="start" v-on:click="startgame()" :style="{display:displaybtn}">start</button>
         <div id="topbar" :style="{display:displayoptions}">
             <img :src="image" alt="" class="options" :style="{display:displayoptions}">
