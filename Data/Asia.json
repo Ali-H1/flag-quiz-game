@@ -1,0 +1,202 @@
+[
+    {
+        "flag": "https://restcountries.eu/data/afg.svg",
+        "name": "Afghanistan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/arm.svg",
+        "name": "Armenia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/aze.svg",
+        "name": "Azerbaijan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bhr.svg",
+        "name": "Bahrain"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bgd.svg",
+        "name": "Bangladesh"
+    },
+    {
+        "flag": "https://restcountries.eu/data/btn.svg",
+        "name": "Bhutan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/brn.svg",
+        "name": "Brunei Darussalam"
+    },
+    {
+        "flag": "https://restcountries.eu/data/khm.svg",
+        "name": "Cambodia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/chn.svg",
+        "name": "China"
+    },
+    {
+        "flag": "https://restcountries.eu/data/geo.svg",
+        "name": "Georgia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hkg.svg",
+        "name": "Hong Kong"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ind.svg",
+        "name": "India"
+    },
+    {
+        "flag": "https://restcountries.eu/data/idn.svg",
+        "name": "Indonesia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/irn.svg",
+        "name": "Iran (Islamic Republic of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/irq.svg",
+        "name": "Iraq"
+    },
+    {
+        "flag": "https://restcountries.eu/data/isr.svg",
+        "name": "Israel"
+    },
+    {
+        "flag": "https://restcountries.eu/data/jpn.svg",
+        "name": "Japan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/jor.svg",
+        "name": "Jordan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kaz.svg",
+        "name": "Kazakhstan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kwt.svg",
+        "name": "Kuwait"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kgz.svg",
+        "name": "Kyrgyzstan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lao.svg",
+        "name": "Lao People's Democratic Republic"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lbn.svg",
+        "name": "Lebanon"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mac.svg",
+        "name": "Macao"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mys.svg",
+        "name": "Malaysia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mdv.svg",
+        "name": "Maldives"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mng.svg",
+        "name": "Mongolia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mmr.svg",
+        "name": "Myanmar"
+    },
+    {
+        "flag": "https://restcountries.eu/data/npl.svg",
+        "name": "Nepal"
+    },
+    {
+        "flag": "https://restcountries.eu/data/prk.svg",
+        "name": "Korea (Democratic People's Republic of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/omn.svg",
+        "name": "Oman"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pak.svg",
+        "name": "Pakistan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pse.svg",
+        "name": "Palestine, State of"
+    },
+    {
+        "flag": "https://restcountries.eu/data/phl.svg",
+        "name": "Philippines"
+    },
+    {
+        "flag": "https://restcountries.eu/data/qat.svg",
+        "name": "Qatar"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sau.svg",
+        "name": "Saudi Arabia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sgp.svg",
+        "name": "Singapore"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kor.svg",
+        "name": "Korea (Republic of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lka.svg",
+        "name": "Sri Lanka"
+    },
+    {
+        "flag": "https://restcountries.eu/data/syr.svg",
+        "name": "Syrian Arab Republic"
+    },
+    {
+        "flag": "https://restcountries.eu/data/twn.svg",
+        "name": "Taiwan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tjk.svg",
+        "name": "Tajikistan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tha.svg",
+        "name": "Thailand"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tls.svg",
+        "name": "Timor-Leste"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tur.svg",
+        "name": "Turkey"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tkm.svg",
+        "name": "Turkmenistan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/are.svg",
+        "name": "United Arab Emirates"
+    },
+    {
+        "flag": "https://restcountries.eu/data/uzb.svg",
+        "name": "Uzbekistan"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vnm.svg",
+        "name": "Viet Nam"
+    },
+    {
+        "flag": "https://restcountries.eu/data/yem.svg",
+        "name": "Yemen"
+    }
+]

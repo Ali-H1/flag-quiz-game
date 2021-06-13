@@ -20,20 +20,35 @@ const app = Vue.createApp({
       lives: 3,
       score: 0,
       nextbtn: "",
+      quizjson:"",
     };
   },
   methods: {
+    Continent(selected_item)
+    {
+      document.getElementById("continents").children[0].style.background = "rgba( 255, 255, 255, 0.15 )"
+      document.getElementById("continents").children[1].style.background = "rgba( 255, 255, 255, 0.15 )"
+      document.getElementById("continents").children[2].style.background = "rgba( 255, 255, 255, 0.15 )"
+      document.getElementById("continents").children[3].style.background = "rgba( 255, 255, 255, 0.15 )"
+      document.getElementById("continents").children[4].style.background = "rgba( 255, 255, 255, 0.15 )"
+      document.getElementById("continents").children[5].style.background = "rgba( 255, 255, 255, 0.15 )"
+      this.quizjson = selected_item.currentTarget.children[0].innerHTML
+      selected_item.currentTarget.style.background="rgb(5, 151, 5)";
+      this.displaybtn = "block";
+
+    },
     startgame() {
-      fetch("data.json")
+      fetch("Data/"+this.quizjson+".json")
         .then((response) => response.json())
         .then((data) => {
-          var selected = data[Math.floor(Math.random() * 191)];
+          len = Object. keys(data). length;
+          var selected = data[Math.floor(Math.random() * len)];
           this.image = selected.flag;
           this.correctopt = selected.name;
           this.options[0] = this.correctopt;
-          this.options[1] = data[Math.floor(Math.random() * 191)].name;
-          this.options[2] = data[Math.floor(Math.random() * 191)].name;
-          this.options[3] = data[Math.floor(Math.random() * 191)].name;
+          this.options[1] = data[Math.floor(Math.random() * len)].name;
+          this.options[2] = data[Math.floor(Math.random() * len)].name;
+          this.options[3] = data[Math.floor(Math.random() * len)].name;
           var index = Math.floor(Math.random() * 4);
           this.opt1 = this.options[index];
           this.options.splice(index, 1);
@@ -46,6 +61,7 @@ const app = Vue.createApp({
           index = Math.floor(Math.random() * 1);
           this.opt4 = this.options[index];
           this.options.splice(index, 1);
+          //console.log(this.correctopt)
         });
       this.nextbtn = "none";
       this.displaybtn = "none";
@@ -53,7 +69,25 @@ const app = Vue.createApp({
       this.clicked = false;
       this.resultstyle = ["", "", "", ""];
       timer = 1;
-      this.progressBar();
+      this.pollDOM()
+      document.body.style.height ="100vh";
+
+    },
+
+    pollDOM() {      
+      image = document.getElementById("flag");
+      isLoaded = image.complete && image.naturalHeight !== 0 && image.src == this.image;;
+
+      if (isLoaded) {
+        //console.log("yes");
+        //console.log(isLoaded);
+        this.progressBar();
+
+        return true;
+      } else {
+        //console.log("no");
+        setTimeout(this.pollDOM, 500); // try again in 300 milliseconds
+      }
     },
     answer() {
       var opt1 = document.getElementById("opt1txt").innerHTML;
@@ -61,9 +95,10 @@ const app = Vue.createApp({
       var opt3 = document.getElementById("opt3txt").innerHTML;
       var opt4 = document.getElementById("opt4txt").innerHTML;
       var opts = [opt1, opt2, opt3, opt4];
+      //console.log(opts)
       var indexopt = -1;
       for (i = 0; i < 3; i++) {
-        if (opts[i] === this.correctopt) {
+        if (opts[i] == this.correctopt) {
           indexopt = i;
         }
       }
@@ -88,10 +123,9 @@ const app = Vue.createApp({
           this.nextbtn = "block";
           timer = 0;
           this.livesleft();
-  
         }
       } else if (timer) {
-        width += 0.2;
+        width += 0.15;
         elem.style.width = width + "%";
         if (width >= 55) {
           elem.style.backgroundColor = "#dcdf35";
@@ -148,15 +182,19 @@ const app = Vue.createApp({
     },
     opt1clicked() {
       this.result("opt1txt", 0);
+      document.body.style.height ="110vh";
     },
     opt2clicked() {
       this.result("opt2txt", 1);
+      document.body.style.height ="110vh";
     },
     opt3clicked() {
       this.result("opt3txt", 2);
+      document.body.style.height ="110vh";
     },
     opt4clicked() {
       this.result("opt4txt", 3);
+      document.body.style.height ="110vh";
     },
   },
 });

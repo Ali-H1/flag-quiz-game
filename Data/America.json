@@ -1,0 +1,230 @@
+[
+    {
+        "flag": "https://restcountries.eu/data/aia.svg",
+        "name": "Anguilla"
+    },
+    {
+        "flag": "https://restcountries.eu/data/atg.svg",
+        "name": "Antigua and Barbuda"
+    },
+    {
+        "flag": "https://restcountries.eu/data/arg.svg",
+        "name": "Argentina"
+    },
+    {
+        "flag": "https://restcountries.eu/data/abw.svg",
+        "name": "Aruba"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bhs.svg",
+        "name": "Bahamas"
+    },
+    {
+        "flag": "https://restcountries.eu/data/brb.svg",
+        "name": "Barbados"
+    },
+    {
+        "flag": "https://restcountries.eu/data/blz.svg",
+        "name": "Belize"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bmu.svg",
+        "name": "Bermuda"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bol.svg",
+        "name": "Bolivia (Plurinational State of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bes.svg",
+        "name": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bra.svg",
+        "name": "Brazil"
+    },
+    {
+        "flag": "https://restcountries.eu/data/umi.svg",
+        "name": "United States Minor Outlying Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vgb.svg",
+        "name": "Virgin Islands (British)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vir.svg",
+        "name": "Virgin Islands (U.S.)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/can.svg",
+        "name": "Canada"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cym.svg",
+        "name": "Cayman Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/chl.svg",
+        "name": "Chile"
+    },
+    {
+        "flag": "https://restcountries.eu/data/col.svg",
+        "name": "Colombia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cri.svg",
+        "name": "Costa Rica"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cub.svg",
+        "name": "Cuba"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cuw.svg",
+        "name": "Curaçao"
+    },
+    {
+        "flag": "https://restcountries.eu/data/dma.svg",
+        "name": "Dominica"
+    },
+    {
+        "flag": "https://restcountries.eu/data/dom.svg",
+        "name": "Dominican Republic"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ecu.svg",
+        "name": "Ecuador"
+    },
+    {
+        "flag": "https://restcountries.eu/data/slv.svg",
+        "name": "El Salvador"
+    },
+    {
+        "flag": "https://restcountries.eu/data/flk.svg",
+        "name": "Falkland Islands (Malvinas)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/guf.svg",
+        "name": "French Guiana"
+    },
+    {
+        "flag": "https://restcountries.eu/data/grl.svg",
+        "name": "Greenland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/grd.svg",
+        "name": "Grenada"
+    },
+    {
+        "flag": "https://restcountries.eu/data/glp.svg",
+        "name": "Guadeloupe"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gtm.svg",
+        "name": "Guatemala"
+    },
+    {
+        "flag": "https://restcountries.eu/data/guy.svg",
+        "name": "Guyana"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hti.svg",
+        "name": "Haiti"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hnd.svg",
+        "name": "Honduras"
+    },
+    {
+        "flag": "https://restcountries.eu/data/jam.svg",
+        "name": "Jamaica"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mtq.svg",
+        "name": "Martinique"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mex.svg",
+        "name": "Mexico"
+    },
+    {
+        "flag": "https://restcountries.eu/data/msr.svg",
+        "name": "Montserrat"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nic.svg",
+        "name": "Nicaragua"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pan.svg",
+        "name": "Panama"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pry.svg",
+        "name": "Paraguay"
+    },
+    {
+        "flag": "https://restcountries.eu/data/per.svg",
+        "name": "Peru"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pri.svg",
+        "name": "Puerto Rico"
+    },
+    {
+        "flag": "https://restcountries.eu/data/blm.svg",
+        "name": "Saint Barthélemy"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kna.svg",
+        "name": "Saint Kitts and Nevis"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lca.svg",
+        "name": "Saint Lucia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/maf.svg",
+        "name": "Saint Martin (French part)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/spm.svg",
+        "name": "Saint Pierre and Miquelon"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vct.svg",
+        "name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sxm.svg",
+        "name": "Sint Maarten (Dutch part)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sgs.svg",
+        "name": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sur.svg",
+        "name": "Suriname"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tto.svg",
+        "name": "Trinidad and Tobago"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tca.svg",
+        "name": "Turks and Caicos Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/usa.svg",
+        "name": "United States of America"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ury.svg",
+        "name": "Uruguay"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ven.svg",
+        "name": "Venezuela (Bolivarian Republic of)"
+    }
+]

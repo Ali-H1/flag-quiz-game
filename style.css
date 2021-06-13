@@ -2,12 +2,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(https://cdn.hovia.com/app/uploads/blue-abstract-vector-world-map-wallpaper-mural-Plain.jpg);
+html{
+    height: 100vh;
+    background: url(https://wallpapercave.com/wp/6IMi8hT.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
     
 }
+
 #start{
+    display: none;
     position: relative;
     margin-top: 10vh;
     margin-left: 50%;
@@ -17,42 +24,52 @@ body{
     height: 40px;
     border-radius: 20px;
     border-color: transparent;
-    background-color: rgba(52, 135, 243, 0.836);
-    font-size: 20px;
-    font-family: cursive;
+    background-color: rgba(43, 135, 255, 0.966);
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .continents {
+    align-items: center;
+    display: block;
     position: relative;
-    margin-top: 30vh;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-60%);
-    float: right;
+    margin-top: 20%;
+    margin-left: 60%;
+    -webkit-transform: translateX(-70%);
+    transform: translateX(-70%);
     margin-right: 20px;
 }
 
-.continents div{
+.continent{
     margin: 9px;
     display: inline-block;
-    border-radius: 16px;
-    background: #e0e0e0;
-    box-shadow:  6px 6px 10px #797979,
-                 -6px -6px 10px #ffffff;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );    
     width: 7vw;  
     min-width: 70px;
     height: 100px;
+    cursor: pointer;
+    
+    
 }
-.continents div p{
+.continent p{
+    font-family: sans-serif;
+    color: rgb(5, 0, 51);
     text-align: center;
-
+    padding-top: 40%;
+    cursor:pointer;
+    
 
 }
-.continents img{
-    width: 30px;
-    height: auto;
+.continents div:hover{
+    transform: translateY(-3px);
 }
-.continents  div:hover{
-    color: #868686e0;
+.continent :hover
+{
+    color: rgb(54, 53, 95);
 }
 
 .top{
@@ -73,14 +90,23 @@ body{
 }
 .page img{
     display: none;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
+    padding: 15px;
     position: relative;
-    width: 200px;
+    width: 250px;
     height: auto;
+    max-height: 200px;
     top: 4vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    background: rgba( 86, 139, 253, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 
 }
 .option{
@@ -92,36 +118,47 @@ body{
     width: 40vw;
     min-width: 240px;
     height: auto;
-    border-radius: 73px;
-    background: #568bfd;
-    box-shadow:  14px 14px 20px #bababa,-14px -14px 20px #ffffff;
-
+    background: rgba( 86, 139, 253, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .option p{
     cursor: pointer;
     padding: 19px 0px;
     margin-left: 20px;
-    font-size: 21px;
-    color: white;
+    font-size: 19px;
+    color: rgb(0, 20, 66);
+    font-family: sans-serif;
+    font-weight: 500;
 
 }
 .option:hover{
     box-shadow: 0px 6px 8px 2px #0000008e;
 }
 .option1{
-    margin-top: 9vh;
+    margin-top: 8vh;
 }
 .option2 ,.option3 ,.option4{
-    margin-top: 2vh;
+    margin-top: 1.6vh;
 }
 .lives{
     display: none;
-    border-style: none none none solid;
     margin: 5px 11px;
     position: absolute;
-    width: 10px;
+    width: 37px;
     height: auto;
     padding: 5px;
+    background: rgba( 86, 139, 253, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) ;
+    border-radius: 10px;
+    border-left: 3px solid rgb(1, 28, 68);
+
 }
 
 .lives i{
@@ -154,7 +191,7 @@ body{
     height: 40px;
     border-radius: 20px;
     border-color: transparent;
-    background-color: rgba(52, 135, 243, 0.836);
+    background-color: rgba(52, 135, 243, 0.959);
     color: white;
     font-size: 20px;
     font-family: sans-serif;
@@ -169,26 +206,33 @@ body{
 
 #score{
     display: none;
-    width: 60px;
-    height: 25px;
+    width: 70px;
+    height: 30px;
     float: right;
-    margin-right: 10px;
+    padding-top: 4px;
+    margin-right: 20px;
+    text-align: center;
     margin-top: -20px;
-    background: rgb(73,150,255);
-    background: linear-gradient(90deg, rgba(73,150,255,0.9699230033810399) 0%, rgba(128,181,253,0.8886905103838411) 43%, rgba(201,240,255,0.5609594179468662) 100%);    padding: 2px;
-    border-radius: 2px;
-    border-style: none none none solid;
-    border-color: rgba(0, 83, 190, 0.959);
+    background: rgba( 86, 139, 253, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(0, 26, 77);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 
 #myProgress {
     width: 100%;
-    background-color: rgba(236, 236, 236, 0.842);
-    border-radius: 20px;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   }
   
@@ -199,4 +243,23 @@ body{
     border-radius: 20px;
 
   }
+  @media only screen and (max-width: 400px) {
+      .continents{
+        width: 200px;
+        -webkit-transform: translateX(-20%);
+        transform: translateX(-20%);
+    
+      }
+      
+  }
+  @media only screen and (max-width: 1200px) {
+    .continents{
+        margin-left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    
+      }
+
+}
+
 
