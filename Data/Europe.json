@@ -1,0 +1,214 @@
+[
+    {
+        "flag": "https://restcountries.eu/data/ala.svg",
+        "name": "Åland Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/alb.svg",
+        "name": "Albania"
+    },
+    {
+        "flag": "https://restcountries.eu/data/and.svg",
+        "name": "Andorra"
+    },
+    {
+        "flag": "https://restcountries.eu/data/aut.svg",
+        "name": "Austria"
+    },
+    {
+        "flag": "https://restcountries.eu/data/blr.svg",
+        "name": "Belarus"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bel.svg",
+        "name": "Belgium"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bih.svg",
+        "name": "Bosnia and Herzegovina"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bgr.svg",
+        "name": "Bulgaria"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hrv.svg",
+        "name": "Croatia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cyp.svg",
+        "name": "Cyprus"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cze.svg",
+        "name": "Czech Republic"
+    },
+    {
+        "flag": "https://restcountries.eu/data/dnk.svg",
+        "name": "Denmark"
+    },
+    {
+        "flag": "https://restcountries.eu/data/est.svg",
+        "name": "Estonia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fro.svg",
+        "name": "Faroe Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fin.svg",
+        "name": "Finland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fra.svg",
+        "name": "France"
+    },
+    {
+        "flag": "https://restcountries.eu/data/deu.svg",
+        "name": "Germany"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gib.svg",
+        "name": "Gibraltar"
+    },
+    {
+        "flag": "https://restcountries.eu/data/grc.svg",
+        "name": "Greece"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ggy.svg",
+        "name": "Guernsey"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vat.svg",
+        "name": "Holy See"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hun.svg",
+        "name": "Hungary"
+    },
+    {
+        "flag": "https://restcountries.eu/data/isl.svg",
+        "name": "Iceland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/irl.svg",
+        "name": "Ireland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/imn.svg",
+        "name": "Isle of Man"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ita.svg",
+        "name": "Italy"
+    },
+    {
+        "flag": "https://restcountries.eu/data/jey.svg",
+        "name": "Jersey"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lva.svg",
+        "name": "Latvia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lie.svg",
+        "name": "Liechtenstein"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ltu.svg",
+        "name": "Lithuania"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lux.svg",
+        "name": "Luxembourg"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mkd.svg",
+        "name": "Macedonia (the former Yugoslav Republic of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mlt.svg",
+        "name": "Malta"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mda.svg",
+        "name": "Moldova (Republic of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mco.svg",
+        "name": "Monaco"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mne.svg",
+        "name": "Montenegro"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nld.svg",
+        "name": "Netherlands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nor.svg",
+        "name": "Norway"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pol.svg",
+        "name": "Poland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/prt.svg",
+        "name": "Portugal"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kos.svg",
+        "name": "Republic of Kosovo"
+    },
+    {
+        "flag": "https://restcountries.eu/data/rou.svg",
+        "name": "Romania"
+    },
+    {
+        "flag": "https://restcountries.eu/data/rus.svg",
+        "name": "Russian Federation"
+    },
+    {
+        "flag": "https://restcountries.eu/data/smr.svg",
+        "name": "San Marino"
+    },
+    {
+        "flag": "https://restcountries.eu/data/srb.svg",
+        "name": "Serbia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/svk.svg",
+        "name": "Slovakia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/svn.svg",
+        "name": "Slovenia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/esp.svg",
+        "name": "Spain"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sjm.svg",
+        "name": "Svalbard and Jan Mayen"
+    },
+    {
+        "flag": "https://restcountries.eu/data/swe.svg",
+        "name": "Sweden"
+    },
+    {
+        "flag": "https://restcountries.eu/data/che.svg",
+        "name": "Switzerland"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ukr.svg",
+        "name": "Ukraine"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gbr.svg",
+        "name": "United Kingdom of Great Britain and Northern Ireland"
+    }
+]

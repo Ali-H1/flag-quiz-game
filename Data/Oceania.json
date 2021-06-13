@@ -1,0 +1,110 @@
+[
+    {
+        "flag": "https://restcountries.eu/data/asm.svg",
+        "name": "American Samoa"
+    },
+    {
+        "flag": "https://restcountries.eu/data/aus.svg",
+        "name": "Australia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cxr.svg",
+        "name": "Christmas Island"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cck.svg",
+        "name": "Cocos (Keeling) Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cok.svg",
+        "name": "Cook Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fji.svg",
+        "name": "Fiji"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pyf.svg",
+        "name": "French Polynesia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gum.svg",
+        "name": "Guam"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kir.svg",
+        "name": "Kiribati"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mhl.svg",
+        "name": "Marshall Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fsm.svg",
+        "name": "Micronesia (Federated States of)"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nru.svg",
+        "name": "Nauru"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ncl.svg",
+        "name": "New Caledonia"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nzl.svg",
+        "name": "New Zealand"
+    },
+    {
+        "flag": "https://restcountries.eu/data/niu.svg",
+        "name": "Niue"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nfk.svg",
+        "name": "Norfolk Island"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mnp.svg",
+        "name": "Northern Mariana Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/plw.svg",
+        "name": "Palau"
+    },
+    {
+        "flag": "https://restcountries.eu/data/png.svg",
+        "name": "Papua New Guinea"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pcn.svg",
+        "name": "Pitcairn"
+    },
+    {
+        "flag": "https://restcountries.eu/data/wsm.svg",
+        "name": "Samoa"
+    },
+    {
+        "flag": "https://restcountries.eu/data/slb.svg",
+        "name": "Solomon Islands"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tkl.svg",
+        "name": "Tokelau"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ton.svg",
+        "name": "Tonga"
+    },
+    {
+        "flag": "https://restcountries.eu/data/tuv.svg",
+        "name": "Tuvalu"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vut.svg",
+        "name": "Vanuatu"
+    },
+    {
+        "flag": "https://restcountries.eu/data/wlf.svg",
+        "name": "Wallis and Futuna"
+    }
+]
