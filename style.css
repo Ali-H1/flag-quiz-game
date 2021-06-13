@@ -95,7 +95,7 @@ body{
     position: relative;
     width: 250px;
     height: auto;
-    max-height: 200px;
+    max-height: 150px;
     top: 4vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
