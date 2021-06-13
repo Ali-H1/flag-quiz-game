@@ -7,10 +7,13 @@ to start this project you need to run it on a live-server. for this you can :
 
 ## Snapshot 
 #### Desktop
-<img src="desktop_view.jpg" alt="Desktop Version" width="700px"/>
+<img src="desktop1.jpg" alt="Desktop Version" width="700px"/>
+
+<img src="desktop2.jpg" alt="Desktop Version" width="700px"/>
+
 
 #### Mobile
-<img src="mobile_view.jpg" alt="Mobile Version" height="500px"/>
+<img src="mobile1.jpg" alt="Mobile Version" height="500px"/>
 
 ## note
 For optimal implementation you can use components in vue3.
