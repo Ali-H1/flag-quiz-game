@@ -125,7 +125,7 @@ const app = Vue.createApp({
           this.livesleft();
         }
       } else if (timer) {
-        width += 0.15;
+        width += 0.1;
         elem.style.width = width + "%";
         if (width >= 55) {
           elem.style.backgroundColor = "#dcdf35";
